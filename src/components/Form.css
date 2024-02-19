@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/city.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  width: 25%;
+  margin: auto;
+}
+
+.form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.inputText {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  padding: 5px;
+}
+
+.inputText {
+  outline: none;
+  color: #fff;
+}
+
+::placeholder {
+  text-align: center;
+  color: #fff;
+}
+
+::placeholder:focus {
+  outline: none;
+}
+
+.btn {
+  width: 50%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  color: #fff;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feelsLike {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
